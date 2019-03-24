@@ -1,19 +1,19 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
-  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  font-family: 'Roboto', Arial;
 }
 
-/** HEADER **/
+/** HEADER BEGIN**/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #425462;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../images/blockchain_tiny_logo.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -23,9 +23,9 @@ body {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+.navbar-brand h1 { /* company name */
+  font-family: 'Roboto', Arial;
+  color: #e0e2e6;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -37,12 +37,169 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
+.navbar-brand p { /* company tagline */
+  font-family: 'Montserrat', Arial;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span { /* Star-K */
+.navbar-brand p span { /* tagline */
   vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  text-decoration: underline;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+/** END HEADER **/
+
+/** HOME PAGE BEGIN **/
+.container .jumbotron {
+  box-shadow: 0 0 50px #FFFFFF;
+  border: 2px solid #ffffff;
+}
+
+#biometrics-tile, #devices-tile, #payments-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #425462;
+  overflow: hidden;
+}
+
+#biometrics-tile:hover, #devices-tile:hover, #payments-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#biometrics-tile {
+  background: url('../images/say-tec_visual.png') no-repeat;
+  background-position: center;
+}
+#devices-tile {
+  background: url('../images/phone_cfca_cert.png') no-repeat;
+  background-position: center;
+}
+#payments-tile {
+  background: url('../images/prepaid-cards-large.jpg') no-repeat;
+  background-position: center;
+}
+
+#biometrics-tile span, #devices-tile span, #payments-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/** END HOME PAGE **/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/borealis-background.png') no-repeat;
+    height: 500px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/blockchain_tiny_logo.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/borealis-background.png') no-repeat;
+    height: 400px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/borealis-background.png') no-repeat;
+    height: 300px;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* company name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* tagline */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  #biometrics-tile, #devices-tile, #payments-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* company name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #biometrics-tile, #devices-tile, #payments-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
 }
