@@ -98,6 +98,13 @@ body {
   box-shadow: 0 0 50px #FFFFFF;
   border: 2px solid #ffffff;
 }
+/**
+.carousel-inner {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+**/
 
 #biometrics-tile, #devices-tile, #payments-tile {
   height: 250px;
