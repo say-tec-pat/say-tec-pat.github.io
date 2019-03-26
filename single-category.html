@@ -1,14 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LMH Blockchain</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700" rel="stylesheet"> 
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LMH Blockchain</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700" rel="stylesheet">
+</head>
+
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
@@ -19,46 +21,88 @@
           </a>
 
           <div class="navbar-brand">
-            <a href="index.html"><h1>LMH Blockchain</h1></a>
+            <a href="index.html">
+              <h1>LMH Blockchain</h1>
+            </a>
             <p>
               <span>Secure Your Blockchain With Voice Biometriics</span>
             </p>
           </div>
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-  
-          <div id="collapsable-nav" class="collapse navbar-collapse">
-             <ul id="nav-list" class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="index.html">
-                      <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
-                  </li>
-              <li class="active">
-                <a href="#">
-                  <span class="glyphicon glyphicon-btc"></span><br class="hidden-xs"> Products</a>
-              </li>
-              <li>
-                  <a href="#">
-                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-                </li>
-              <li>
-                  <a href="product-categories.html">
-                    <span class="glyphicon glyphicon-shopping-cart"></span><br class="hidden-xs"> Cart</a>
-                </li>
-            </ul><!-- #nav-list -->
-          </div><!-- .collapse .navbar-collapse -->
-        </div><!-- .container -->
-       
-      </nav><!-- #header-nav -->
-    </header>
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-    <section class="row">
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span>
+                <br class="hidden-xs"> Home</a>
+            </li>
+            <li class="active">
+              <a href="#">
+                <span class="glyphicon glyphicon-btc"></span>
+                <br class="hidden-xs"> Products</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span>
+                <br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="product-categories.html">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                <br class="hidden-xs"> Cart</a>
+            </li>
+          </ul>
+          <!-- #nav-list -->
+        </div>
+        <!-- .collapse .navbar-collapse -->
+      </div>
+      <!-- .container -->
+
+    </nav>
+    <!-- #header-nav -->
+  </header>
+
+  <div class="container">
+    <h1>Grid</h1>
+    <p>This example demonstrates a 50%/50% split on small, medium and large devices. On extra small devices, it will stack (100%
+      width).
+    </p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-responsive" width="250" height="150" src="images/products/say-pay-on-phone.png" alt="Item">
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            Panel content
+          </div>
+          <div class="panel-footer">Panel footer</div>
+        </div>
+        <div class="col-sm-6">
+          <img class="img-responsive" width="250" height="150" src="images/products/say-pay-on-phone.png" alt="Item">
+
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="product-item-title">Say-Tec App</h3>
+              <div class="product-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit..</div>
+              <div class="product-item-price">$99.99
+                <span> (per user)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
       <div id="main-content" class="container">
         <h2 id="product-categories-title" class="text-center">Biometric Products </h2>
         <div class="text-center">Use your unique physical or behavioral characteristics to lock and unlock your data</div>
@@ -83,24 +127,24 @@
 
       </section>
     </div><!--main-content end-->
-
+    -->
     <!-- #Footer Section Begin -->
     <footer class="panel-footer">
       <div class="container">
         <div class="row">
           <section id="products" class="col-sm-4">
-            <span>PRODUCTS</span><br>
-            Biometriecs<br>
-            Devices<br>
-            Payments
+            <span>PRODUCTS</span>
+            <br> Biometriecs
+            <br> Devices
+            <br> Payments
             <hr class="visible-xs">
           </section>
           <section id="aboutus" class="col-sm-4">
-            <span>ABOUT US</span><br>
-            Awards<br>
-            Conferences<br>
-            News Articles<br>
-            FAQs
+            <span>ABOUT US</span>
+            <br> Awards
+            <br> Conferences
+            <br> News Articles
+            <br> FAQs
             <p>*Overview</p>
             <hr class="visible-xs">
           </section>
@@ -113,10 +157,11 @@
       </div>
     </footer>
     <!-- #Footer Section Begin -->
-  
+
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-  </body>
-  </html>
+</body>
+
+</html>
