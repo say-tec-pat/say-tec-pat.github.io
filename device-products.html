@@ -8,7 +8,8 @@
   <title>LMH Blockchain</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700" rel="stylesheet">
 </head>
 
@@ -45,7 +46,7 @@
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
             </li>
-            <li>
+            <li class="active">
               <a href="product-categories.html">
                 <span <i class="fas fa-store-alt"></i></span><br class="hidden-xs"> Products</a>
             </li>
@@ -64,73 +65,28 @@
   </header>
 
   <div id="main-content" class="container">
-    <!--#Carousel Begins-->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="images/borealis-compressed.png" alt="Borealis" style="width:100%;">
-          <div class="carousel-caption">
-            <h3>Hi Michele</h3>
-            <p>Sample image 1</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="images/say-tec-carousel-2.png" alt="Sphere" style="width:100%;">
-          <div class="carousel-caption">
-            <h3>Hi Brian</h3>
-            <p>Sample image 2</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="images/say-tec-carousel-3.png" alt="Ocean" style="width:100%;">
-          <div class="carousel-caption">
-            <h3>Hi Steve</h3>
-            <p>Samle image three</p>
+    <h2 id="product-categories-title" class="text-center">LMH Blockchain Devices</h2>
+    <div class="text-center">Secure devices for blockchain transactions</div>
+    <section class="row">
+      <div class="product-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="product-item-photo">
+              <a href=lmh-blockchain-phone.html><img class="img-responsive" width="250" height="150"
+                  src="images/products/blockchain-phone.png" alt="phone"></a>
+            </div>
+            <h3 class="product-item-title">LMH Blockchain SmartPhone</h3>
+            <div class="product-item-price">$799.95
+              <span> (per user)</span>
+            </div>
+            <div class="product-item-details">Easy, hassle-free returns online and in-person in Hong Kong for eligible
+              items. <a href="http://lmhblockchain.com">Learn more</a></div>
           </div>
         </div>
       </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!--Carousel End-->
-
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="product-categories.html">
-          <div id="biometrics-tile"><span>biometrics</span></div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="device-products.html">
-          <div id="devices-tile"><span>devices</span></div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="payment-products.html">
-          <div id="payments-tile"><span>payments</span></div>
-        </a>
-      </div>
-    </div>
+    </section>
   </div>
-  <!--main-content end-->
+
 
   <!-- #Footer Section Begin -->
   <footer class="panel-footer">
