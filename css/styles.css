@@ -1,4 +1,3 @@
-
 /** Body **/
 
 body {
@@ -8,7 +7,8 @@ body {
   font-family: 'Roboto', Arial;
 }
 
-#home-tiles { /* company name */
+#home-tiles {
+  /* company name */
   /*margin-top: 30px;*/
   padding-top: 50px;
 }
@@ -31,7 +31,8 @@ body {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* company name */
+.navbar-brand h1 {
+  /* company name */
   font-family: 'Roboto', Arial;
   color: #e0e2e6;
   font-size: 1.5em;
@@ -42,36 +43,132 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* company tagline */
+
+.navbar-brand p {
+  /* company tagline */
   font-family: 'Montserrat', Arial;
   color: #ffffff;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span { /* tagline */
+
+.navbar-brand p span {
+  /* tagline */
   vertical-align: middle;
 }
 
 #nav-list {
   margin-top: 10px;
 }
+
 #nav-list a {
   color: #ffffff;
   text-align: center;
 }
+
 #nav-list a:hover {
   text-decoration: underline;
 }
+
 #nav-list a span {
   font-size: 1.2em;
 }
+
 /** END HEADER **/
 
 /* FOOTER */
+
+/* WS footers begin */
+#footer-container {
+  background: #706c6c;
+  clear: both;
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+.footer-links {
+  margin-top: 1em;
+  overflow: hidden;
+  line-height: 1.54;
+  font-size: 11px;
+  color: #000;
+  margin-left: 10%;
+}
+
+.footer-links-group {
+  width: 33%;
+  padding-right: 2%;
+  float: left;
+  margin-top: 2em;
+  list-style-type: none;
+}
+
+.footer-links-heading {
+  margin-top: 1em;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+  text-decoration: underline !important;
+}
+
+.footer-links a {
+  color: #000;
+}
+
+.footer-links-get-social-links-label {
+  text-align: center;
+  font-size: 12px;
+  margin: 20px 0 8px;
+}
+
+.footer-links-get-social {
+  width: 21%;
+  padding: 1em 0 0 1%;
+  float: right;
+  margin-right: 30px;
+}
+
+.footer-links-get-social-links {
+  text-align: center;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.join-email-signup {
+  background-color: #fff;
+  border: 2px solid #706c6c;
+  color: #000;
+  /*padding: 2px 0;*/
+  float: left;
+  width: 250px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+  /* WS footers end */
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
@@ -80,52 +177,43 @@ body {
   background-color: rgb(77, 80, 83);
   border-top: 0;
 }
+
 .panel-footer div.row {
   margin-bottom: 35px;
 }
+
 #aboutus {
   line-height: 1.7;
 }
-#aboutus > span{
+
+#aboutus>span {
   font-size: 1.1em;
 }
+
 #products {
   color: #ffffff;
   font-size: 1.1em;
   line-height: 1.7;
 }
-#testimonials {
-  font-style: italic;
-}
-#testimonials p:nth-child(2) {
-  margin-top: 25px;
-}
+
 /* END FOOTER */
 
 /** HOME PAGE BEGIN **/
-.container .jumbotron {
-  box-shadow: 0 0 50px #FFFFFF;
-  border: 2px solid #ffffff;
-}
 
-/*
-.carousel-inner {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-*/
-
-#biometrics-tile, #devices-tile, #payments-tile {
+#biometrics-tile,
+#devices-tile,
+#payments-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #425462;
+  /*border: 2px solid #425462;*/
   overflow: hidden;
 }
 
-#biometrics-tile:hover, #devices-tile:hover, #payments-tile:hover {
+#biometrics-tile:hover,
+#devices-tile:hover,
+#payments-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
@@ -133,16 +221,20 @@ body {
   background: url('../images/say-tec_visual.png') no-repeat;
   background-position: center;
 }
+
 #devices-tile {
-  background: url('../images/phone_cfca_cert.png') no-repeat;
+  background: url('../images/JGW Blockchain phone.jpg') no-repeat;
   background-position: center;
 }
+
 #payments-tile {
   background: url('../images/prepaid-cards-large.jpg') no-repeat;
   background-position: center;
 }
 
-#biometrics-tile span, #devices-tile span, #payments-tile span {
+#biometrics-tile span,
+#devices-tile span,
+#payments-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -158,22 +250,24 @@ body {
 /** END HOME PAGE **/
 
 /* PRODUCT CATEGORIES PAGE */
-.category-tile { 
+.category-tile {
   position: relative;
-  border: 2px solid rgb(20, 16, 53);
+  /*border: 2px solid rgb(20, 16, 53);*/
   overflow: hidden;
   width: 200px;
   height: 200px;
   margin: 0 auto 15px;
 }
-.category-tile-doublewide { 
+
+.category-tile-doublewide {
   position: relative;
-  border: 2px solid #0c0c0e;
+  /*border: 2px solid #0c0c0e;*/
   overflow: hidden;
   width: 400px;
   height: 200px;
   margin: 0 auto 15px;
 }
+
 .category-tile span {
   position: absolute;
   bottom: 0;
@@ -186,20 +280,21 @@ body {
   color: #fff;
   opacity: .8;
 }
+
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #040c795d;
 }
 
 #main-content h2 {
   margin-bottom: 10px;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #000;
 
 }
 
-#product-categories-title + div {
+#product-categories-title+div {
   margin-bottom: 20px;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #000;
 
 }
@@ -258,7 +353,7 @@ body {
 
 .product-item-photo {
   position: relative;
-  border: 0px solid #0c0c0c; 
+  border: 0px solid #0c0c0c;
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -267,6 +362,7 @@ body {
   margin-bottom: 10px;
   max-width: 315px;
 }
+
 .product-item-photo div {
   position: absolute;
   bottom: 0;
@@ -294,6 +390,7 @@ body {
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+
   /* Header */
   #logo-img {
     background: url('../images/blockchain_tiny_logo.png') no-repeat;
@@ -301,6 +398,7 @@ body {
     height: 100px;
     margin: 5px 5px 5px 0;
   }
+
   /* End Header */
 
   /* Home Page */
@@ -314,35 +412,46 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* Home Page */
   .container .jumbotron {
     background: url('../images/borealis-background.png') no-repeat;
     height: 300px;
   }
+
   /* End Home Page */
 
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
   /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* company name */
+
+  .navbar-brand h1 {
+    /* company name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw;
+    /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* tagline */
+
+  .navbar-brand p {
+    /* tagline */
     font-size: .6em;
     margin-top: 12px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
   }
@@ -350,34 +459,43 @@ body {
   /* End Header */
 
   /* FOOTER Begin*/
-.panel-footer {
-  margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border-top: 0;
-}
-.panel-footer div.row {
-  margin-bottom: 35px;
-}
-#hours, #address {
-  line-height: 2;
-}
-#hours > span, #address > span {
-  font-size: 1.3em;
-}
-#address p {
-  color: #557c3e;
-  font-size: .8em;
-  line-height: 1.8;
-}
-#testimonials {
-  font-style: italic;
-}
-#testimonials p:nth-child(2) {
-  margin-top: 25px;
-}
-/* END FOOTER */
+  .panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+  }
+
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+
+  #hours,
+  #address {
+    line-height: 2;
+  }
+
+  #hours>span,
+  #address>span {
+    font-size: 1.3em;
+  }
+
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+
+  #testimonials {
+    font-style: italic;
+  }
+
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+
+  /* END FOOTER */
 
   /* Home Page */
   .container .jumbotron {
@@ -385,40 +503,51 @@ body {
     padding: 0;
   }
 
-  #biometrics-tile, #devices-tile, #payments-tile {
+  #biometrics-tile,
+  #devices-tile,
+  #payments-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
 
 }
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/********** Begin Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+
   /* Header */
-  .navbar-brand h1 { /* company name */
+  .navbar-brand h1 {
+    /* company name */
     padding-top: 5px;
     font-size: 6vw;
   }
+
   /* End Header */
 
-  /* Footer */
+
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
   }
+
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0;
+    /* margin already exists on the whole row */
   }
+
   .panel-footer section hr {
     width: 50%;
   }
   /* End Footer */
 
   /* Home page */
-  #biometrics-tile, #devices-tile, #payments-tile {
+  #biometrics-tile,
+  #devices-tile,
+  #payments-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
+
   /* Product Categories Page */
   .col-xxs-12 {
     position: relative;
@@ -428,4 +557,4 @@ body {
     float: left;
     width: 100%;
   }
-}
+} /********** End Super extra small devices Only :-) (e.g., iPhone 4) **********/

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LMH Blockchain</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700" rel="stylesheet">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            /* Set width to 100% */
+            margin: auto;
+            min-height: 200px;
+            min-width: 100%
+
+        }
+
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+        @media (max-width: 600px) {
+            .carousel-caption {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>LMH Blockchain</h1>
+                        </a>
+                        <p>
+                            <span>Secure Your Blockchain With Voice Biometriics</span>
+                        </p>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+                        </li>
+                        <li>
+                            <a href="product-categories.html">
+                                <span <i class="fas fa-store-alt"></i></span><br class="hidden-xs"> Shop</a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+                        </li>
+                        <li>
+                            <a href="menu-categories.html">
+                                <span class="glyphicon glyphicon-shopping-cart"></span><br class="hidden-xs"> Cart</a>
+                        </li>
+                    </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse -->
+            </div><!-- .container -->
+        </nav><!-- #header-nav -->
+    </header>
+
+    <div class="container-fluid px-0">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="images/woman-3083379_1920.jpg" alt="First slide">
+                    <div class="carousel-caption justify-content-center">
+                        <div class="col-10 mx-auto text-center">
+                            <h2 class="mbr-fonts-style display-1">FULL SCREEN SLIDER</h2>
+                            <p class="lead mbr-text mbr-fonts-style display-5">Choose from the large selection of latest
+                                pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds,
+                                hamburger menu, sticky header and more.</p>
+                            <div class="mbr-section-btn" buttons="0">
+                                <a class="btn btn-success display-4" href="https://mobirise.com">FOR WINDOWS</a>
+                                <a class="btn btn-outline-light display-4" href="https://mobirise.com">FOR MAC</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="images/startrails-1800916_1920.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="images/aurora-borealis-1065026_1920.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--Carousel End-->
+
+    <div id="home-tiles" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="product-categories.html">
+                <div id="biometrics-tile"><span>biometrics</span></div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="device-products.html">
+                <div id="devices-tile"><span>devices</span></div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="payment-products.html">
+                <div id="payments-tile"><span>payments</span></div>
+            </a>
+        </div>
+    </div>
+    </div>
+    <!--main-content end-->
+
+    <!-- #Footer Section Begin -->
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="products" class="col-sm-4">
+                    <span>PRODUCTS</span><br>
+                    Biometrics<br>
+                    Devices<br>
+                    Payments
+                    <hr class="visible-xs">
+                </section>
+                <section id="aboutus" class="col-sm-4">
+                    <span>ABOUT US</span><br>
+                    <a href="overview.html">Overview</a><br>
+                    <a href="leadership.html">Leadership</a><br>
+                    <a href="press-releases.html">Press Releases</a><br>
+                    <a href="in-the-news.html">In The News</a><br>
+                    <a href="conferences.html">Conferences</a><br>
+                    <a href="company-faqs.html">FAQs</a><br>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>"The best block phone ever! And I've tested lots of phones"</p>
+                    <p>"Amazing prepaid! Great service! Couldn't ask for more!"</p>
+                </section>
+            </div>
+            <div class="text-right">
+                <a href="https://www.linkedin.com/company/lmh-blockchain">
+                    <span <i class="fab fa-linkedin-in fa-3x"></i></span><br class="hidden-xs"></a>
+            </div>
+            <div class="text-center">&copy; Copyright LMH Blockchain 2019</div>
+        </div>
+    </footer>
+    <!-- #Footer Section Begin -->
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+
+</body>
+
+</html>
