@@ -223,7 +223,7 @@ ol, ul {
 }
 
 #devices-tile {
-  background: url('../images/JGW Blockchain phone.jpg') no-repeat;
+  background: url('../images/products/jgw-blockchain-phone.png') no-repeat;
   background-position: center;
 }
 
@@ -378,6 +378,14 @@ ol, ul {
 
 .product-item-buy {
   grid-area: right;
+}
+
+.free-trial-email {
+  display: table-cell;
+  vertical-align: top;
+  list-style: none;
+  direction: ltr;
+  text-align: left;
 }
 
 /********** Large devices only **********/
