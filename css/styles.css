@@ -86,7 +86,7 @@ body {
 
 /* WS footers begin */
 #footer-container {
-  background: #706c6c;
+  background: #b6b0b0;
   clear: both;
   margin-top: 30px;
   font-size: 10px;
@@ -218,17 +218,17 @@ ol, ul {
 }
 
 #biometrics-tile {
-  background: url('../images/say-tec_visual.png') no-repeat;
+  background: url('../images/sound-wave-352x244.jpg') no-repeat;
   background-position: center;
 }
 
 #devices-tile {
-  background: url('../images/JGW Blockchain phone.jpg') no-repeat;
+  background: url('../images/blockchain-phone-green-398x244.jpg') no-repeat;
   background-position: center;
 }
 
 #payments-tile {
-  background: url('../images/prepaid-cards-large.jpg') no-repeat;
+  background: url('../images/cryptocurrency-398x249.jpg') no-repeat;
   background-position: center;
 }
 
@@ -378,6 +378,14 @@ ol, ul {
 
 .product-item-buy {
   grid-area: right;
+}
+
+.free-trial-email {
+  display: table-cell;
+  vertical-align: top;
+  list-style: none;
+  direction: ltr;
+  text-align: left;
 }
 
 /********** Large devices only **********/
