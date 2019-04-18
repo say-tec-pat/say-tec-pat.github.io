@@ -277,9 +277,9 @@ ol, ul {
   position: relative;
   /*border: 2px solid rgb(20, 16, 53);*/
   overflow: hidden;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 15px;
+  height: 244px;
+  width: 100%;
+  /*margin: 0 15px 15px 0;*/
 }
 
 .category-tile-doublewide {
@@ -294,7 +294,7 @@ ol, ul {
 .category-tile span {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 15px;
   width: 100%;
   text-align: center;
   font-size: 1.2em;
